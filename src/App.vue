@@ -1,27 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <CorrectionRoundHome></CorrectionRoundHome>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
-
-export default defineComponent({
-  name: "App",
-  components: {
-    HelloWorld,
-  },
-});
+<script setup lang="ts">
+import "@/assets/tailwind.css";
+import CorrectionRoundHome from "@/components/CorrectionRoundHome.vue";
 </script>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style>
+/*Slider styling*/
+:root {
+  --slider-connect-bg: #6b7280;
+  --slider-tooltip-bg: #6b7280;
+  --slider-handle-ring-color: #6b728030;
 }
 </style>
