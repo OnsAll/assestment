@@ -21,7 +21,6 @@ import ButtonElement from "@/components/elements/ButtonElement.vue";
 const showModal = ref(false);
 
 function close() {
-  console.log("closeee");
   showModal.value = false;
 }
 </script>

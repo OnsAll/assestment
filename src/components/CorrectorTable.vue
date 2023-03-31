@@ -4,7 +4,7 @@
       :type="!selectedCorrector ? 'warning' : 'info'"
       :text="getBannerText()"
     ></BannerBox>
-    <div class="bg-primary-100 overflow-y-auto p-2" style="height: 300px">
+    <div class="bg-primary-100 overflow-y-auto p-2" style="max-height: 300px">
       <div class="border border-dark-gray bg-white">
         <div class="border-b border-dark-gray mx-5 py-2">
           <p class="font-normal text-sm text-dark-gray">All correctors</p>

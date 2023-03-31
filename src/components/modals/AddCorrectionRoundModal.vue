@@ -12,13 +12,13 @@
         >
           <CorrectionDistribution></CorrectionDistribution>
         </div>
-      </div>
-      <div class="mt-6">
-        <ButtonElement
-          :label="'Cancel'"
-          :background-color="'primary'"
-          @click="close()"
-        />
+        <div class="mt-6">
+          <ButtonElement
+            :label="'Cancel'"
+            :background-color="'primary'"
+            @click="close()"
+          />
+        </div>
       </div>
     </div>
   </BaseModal>
